@@ -4,7 +4,7 @@ Batch subtitle translator for WEBVTT subtitles using Google Translator API.
 
 The tool is a follow-up to my Chrome plugin: CST - Coursera Subtitle Translate
 https://github.com/lexxai/coursera-subtitle-translate-extension
-for offline batch subtitle translation in bilingual mode. 
+for offline batch subtitle translation in bilingual mode.
 
 ## Test1:
 
@@ -47,7 +47,7 @@ if __name__ == "__main__":
         "3. який обслуговує інженерів безпеки та мережевих інженерів Google.",
     )
 
-    result = translator.translate_text("en", q, source="uk", chunk_size=80, verbose=1)
+    result = translator.translate_text("en", q, source="uk", chunk_size=120, verbose=1)
 
     print("\n".join(result))
 ```
@@ -63,8 +63,10 @@ Translate new chunk with 67 chars
 3. which serves Google's security engineers and network engineers.
 ```
 
-# Next later ... 
+# Next later ...
+
 ## PARSE FILE
+
 import webvtt
 
 ```
