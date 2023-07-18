@@ -11,12 +11,12 @@ if __name__ == "__main__":
         "3. який обслуговує інженерів безпеки та мережевих інженерів Google.",
     )
 
-    # result = translator.translate_text("en", q, source="uk")
+    result = translator.translate_text("en", q, source="uk")
 
     # print(result)
 
-    result = translator.translate_text("en", q, source="uk", chunk_size=80, verbose=1)
+    # result = translator.translate_text("en", q, source="uk", chunk_size=80, verbose=1)
 
-    print(result)
+    # print(result)
 
-    # print("Result:\n", "\n".join(result))
+    print("\n".join(result))
