@@ -58,9 +58,9 @@ def translate_text(
     else:
         result = []
         if json_result and json_result[0]:
-            for i in json_result[0]:
-                splitted = str(i[0]).split(separator)
-                splitted = map(lambda x: x.strip(), splitted)
-                result.extend(splitted)
+            return_string = " ".join(i[0].strip() for i in json_result[0])
+            splitted = return_string.split(separator)
+            splitted = map(lambda x: x.strip(), splitted)
+            result.extend(splitted)
             result = list(filter(lambda x: x, result))
     return result

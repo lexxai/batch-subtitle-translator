@@ -11,7 +11,7 @@ import translator
 
 if __name__ == "__main__":
     q = (
-        "1. Мене звати Тіна, я інженер-програміст у Google.",
+        "1. Мене звати Тіна, я інженер-програміст у Google. А також щось тут з двох речень.",
         "2. Як інженер-програміст, я працюю над внутрішнім інструментом, ",
         "3. який обслуговує інженерів безпеки та мережевих інженерів Google.",
     )
@@ -24,7 +24,7 @@ if __name__ == "__main__":
 ### Result:
 
 ```
-1. My name is Tina and I am a software engineer at Google.
+1. My name is Tina and I am a software engineer at Google. And also something here from two sentences.
 2. As a software engineer, I work on an internal tool,
 3. that serves Google's security engineers and network engineers.
 ```
@@ -38,7 +38,7 @@ import translator
 
 if __name__ == "__main__":
     q = (
-        "1. Мене звати Тіна, я інженер-програміст у Google.",
+        "1. Мене звати Тіна, я інженер-програміст у Google. А також щось тут з двох речень.",
         "2. Як інженер-програміст, я працюю над внутрішнім інструментом, ",
         "3. який обслуговує інженерів безпеки та мережевих інженерів Google.",
     )
@@ -51,10 +51,10 @@ if __name__ == "__main__":
 ### Result:
 
 ```
-Translate new chunk with 50 chars
+Translate new chunk with 82 chars
 Translate new chunk with 63 chars
 Translate new chunk with 67 chars
-1. My name is Tina and I am a software engineer at Google.
+1. My name is Tina and I am a software engineer at Google. And also something here from two sentences.
 2. As a software engineer, I work on an internal tool,
 3. which serves Google's security engineers and network engineers.
 ```
