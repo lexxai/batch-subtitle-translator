@@ -1,6 +1,10 @@
 # Batch Subtitle Translator
 
-Batch subtitle translator for WEBVTT subtitles using Google Translator API
+Batch subtitle translator for WEBVTT subtitles using Google Translator API.
+
+The tool is a follow-up to my Chrome plugin: CST - Coursera Subtitle Translate
+https://github.com/lexxai/coursera-subtitle-translate-extension
+for offline batch subtitle translation in bilingual mode. 
 
 ## Test1:
 
