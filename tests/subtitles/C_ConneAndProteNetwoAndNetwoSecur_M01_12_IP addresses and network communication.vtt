@@ -1,0 +1,278 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:02.160
+Let's learn about how
+
+2
+00:00:02.160 --> 00:00:05.310
+IP addresses are used to
+communicate over a network.
+
+3
+00:00:05.310 --> 00:00:07.905
+IP stands for internet protocol.
+
+4
+00:00:07.905 --> 00:00:11.460
+An internet protocol
+address, or IP address, is
+
+5
+00:00:11.460 --> 00:00:13.680
+a unique string of
+characters that identifies
+
+6
+00:00:13.680 --> 00:00:16.275
+a location of a
+device on the internet.
+
+7
+00:00:16.275 --> 00:00:19.515
+Each device on the internet
+has a unique IP address,
+
+8
+00:00:19.515 --> 00:00:21.180
+just like every
+house on a street
+
+9
+00:00:21.180 --> 00:00:23.440
+has its own mailing address.
+
+10
+00:00:24.440 --> 00:00:26.345
+There are two types
+of IP addresses:
+
+11
+00:00:26.345 --> 00:00:29.420
+IP version 4, or IPv4,
+
+12
+00:00:29.420 --> 00:00:32.855
+and IP version 6, or IPv6.
+
+13
+00:00:32.855 --> 00:00:36.085
+Let's look at examples
+of an IPv4 address.
+
+14
+00:00:37.085 --> 00:00:39.090
+IPv4 addresses are
+written as four, 1,
+
+15
+00:00:39.090 --> 00:00:42.875
+2, or 3-digit numbers
+separated by a decimal point.
+
+16
+00:00:42.875 --> 00:00:45.230
+In the early days
+of the internet,
+
+17
+00:00:45.230 --> 00:00:46.520
+IP addresses were all
+
+18
+00:00:46.520 --> 00:00:49.550
+IPV4. But as the use
+of the internet grew,
+
+19
+00:00:49.550 --> 00:00:51.680
+all the IPv4 addresses
+started to get
+
+20
+00:00:51.680 --> 00:00:54.475
+used up, so IPv6 was developed.
+
+21
+00:00:55.475 --> 00:00:58.280
+IPv6 addresses are made
+up of 32 characters.
+
+22
+00:00:58.280 --> 00:01:00.380
+The length of the IPv6 address
+
+23
+00:01:00.380 --> 00:01:02.090
+will allow for more
+devices to be connected
+
+24
+00:01:02.090 --> 00:01:03.860
+to the internet
+without running out of
+
+25
+00:01:03.860 --> 00:01:05.840
+addresses as quickly as IPv4.
+
+26
+00:01:06.840 --> 00:01:09.605
+IP addresses can be
+either public or private.
+
+27
+00:01:09.605 --> 00:01:11.900
+Your internet service
+provider assigns
+
+28
+00:01:11.900 --> 00:01:13.310
+a public IP address that is
+
+29
+00:01:13.310 --> 00:01:15.545
+connected to your
+geographic location.
+
+30
+00:01:15.545 --> 00:01:17.420
+When network communications goes
+
+31
+00:01:17.420 --> 00:01:19.100
+out from your device
+on the internet,
+
+32
+00:01:19.100 --> 00:01:21.950
+they all have the same
+public-facing address.
+
+33
+00:01:21.950 --> 00:01:23.570
+Just like all the roommates in
+
+34
+00:01:23.570 --> 00:01:25.790
+one home share the
+same mailing address,
+
+35
+00:01:25.790 --> 00:01:27.980
+all the devices on
+a network share
+
+36
+00:01:27.980 --> 00:01:30.350
+the same public-facing
+IP address.
+
+37
+00:01:31.350 --> 00:01:32.810
+Private IP addresses
+are only seen
+
+38
+00:01:32.810 --> 00:01:35.600
+by other devices on the
+same local network.
+
+39
+00:01:35.600 --> 00:01:37.370
+This means that
+all the devices on
+
+40
+00:01:37.370 --> 00:01:39.170
+your home network can
+communicate with each other
+
+41
+00:01:39.170 --> 00:01:40.910
+using unique IP addresses
+
+42
+00:01:40.910 --> 00:01:43.190
+that the rest of the
+internet can't see.
+
+43
+00:01:44.190 --> 00:01:44.900
+Another kind of address used in
+
+44
+00:01:44.900 --> 00:01:47.390
+network communications
+is called a MAC address.
+
+45
+00:01:47.390 --> 00:01:48.740
+A MAC address is
+
+46
+00:01:48.740 --> 00:01:50.780
+a unique alphanumeric
+identifier that is
+
+47
+00:01:50.780 --> 00:01:53.255
+assigned to each physical
+device on a network.
+
+48
+00:01:53.255 --> 00:01:55.400
+When a switch receives
+a data packet,
+
+49
+00:01:55.400 --> 00:01:57.020
+it reads the MAC address of
+
+50
+00:01:57.020 --> 00:02:00.110
+the destination device
+and maps it to a port.
+
+51
+00:02:00.110 --> 00:02:03.515
+It then keeps this information
+in a MAC address table.
+
+52
+00:02:03.515 --> 00:02:05.270
+Think of the MAC address table
+
+53
+00:02:05.270 --> 00:02:06.650
+like an address book
+that the switch
+
+54
+00:02:06.650 --> 00:02:09.500
+uses to direct data packets
+to the appropriate device.
+
+55
+00:02:10.500 --> 00:02:11.960
+In this video, you learned about
+
+56
+00:02:11.960 --> 00:02:15.155
+IP version 4 and IP
+version 6 addresses.
+
+57
+00:02:15.155 --> 00:02:17.870
+You learned how IP and MAC
+addresses are used in
+
+58
+00:02:17.870 --> 00:02:19.670
+network communication
+and the difference
+
+59
+00:02:19.670 --> 00:02:23.100
+between a public and
+a private IP address.

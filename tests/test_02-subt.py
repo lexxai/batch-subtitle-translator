@@ -7,7 +7,10 @@ import translator
 
 
 if __name__ == "__main__":
-    subtitles_list = subtitles.subtitle_read("subtitles/subtitle-02.vtt")
+    filename_in = "subtitles/C_ConneAndProteNetwoAndNetwoSecur_M01_12_IP addresses and network communication.vtt"
+    filename_out = "subtitles/C_ConneAndProteNetwoAndNetwoSecur_M01_12_IP addresses and network communication_uk.vtt"
+
+    subtitles_list = subtitles.subtitle_read(filename_in)
     grouped_list = subtitles.grouping_subtitle(subtitles_list)
 
     for i in grouped_list:
@@ -29,3 +32,5 @@ if __name__ == "__main__":
 
     for i in dual_language_subt:
         print(i)
+
+    subtitles.subtitle_save(filename_out, dual_language_subt)

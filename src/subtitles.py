@@ -1,6 +1,12 @@
 import webvtt
 
 
+def subtitle_save(filename: str, captions: list[webvtt.Caption]):
+    my_webvtt = webvtt.WebVTT(filename, captions)
+    my_webvtt.save(filename)
+    return
+
+
 def subtitle_read(filename: str) -> list[webvtt.Caption]:
     captions = webvtt.read(filename)
     return captions
@@ -73,7 +79,7 @@ def mix_subtitles(
                 ct.start <= caption_src.start <= ct.end
                 or ct.start <= caption_src.end <= ct.end
             ):
-                caption_src.text += "\n\n" + ct.text
+                caption_src.text += "\n\u00A0\n" + ct.text + "\n"
                 if caption_src.end >= ct.end:
                     id_transl += 1
         result.append(caption_src)
