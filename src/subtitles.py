@@ -50,14 +50,6 @@ def grouping_subtitle(captions: list[webvtt.Caption]) -> list[webvtt.Caption]:
     return result
 
 
-if __name__ == "__main__":
-    subtitles = subtitle_read("../tests/subtitles/subtitle-02.vtt")
-
-    result = grouping_subtitle(subtitles)
-
-    for i in result:
-        print(i)
-
 """
 00:00:00.020 00:00:05.310 Let's learn about howIP addresses are used to communicate over a network!
 00:00:05.310 00:00:07.905 IP stands for internet protocol?
