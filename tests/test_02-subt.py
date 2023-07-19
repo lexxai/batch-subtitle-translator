@@ -22,3 +22,10 @@ if __name__ == "__main__":
 
     for i in grouped_list:
         print(i)
+
+    print("*" * 40)
+
+    dual_language_subt = subtitles.mix_subtitles(subtitles_list, grouped_list)
+
+    for i in dual_language_subt:
+        print(i)

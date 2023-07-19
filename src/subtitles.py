@@ -58,3 +58,23 @@ def grouping_subtitle(captions: list[webvtt.Caption]) -> list[webvtt.Caption]:
 00:00:24.440 00:00:32.855 There are two types of IP addresses:IP version 4, or IPv4, and IP version 6, or IPv6.
 00:00:32.855 00:00:36.085 Let's look at examples of an IPv4 address.
 """
+
+
+def mix_subtitles(
+    captions_src: list[webvtt.Caption], captions_translated: list[webvtt.Caption]
+) -> list[webvtt.Caption]:
+    id_transl = 0
+    len_transl = len(captions_translated)
+    result = []
+    for caption_src in captions_src:
+        if id_transl < len_transl:
+            ct = captions_translated[id_transl]
+            if (
+                ct.start <= caption_src.start <= ct.end
+                or ct.start <= caption_src.end <= ct.end
+            ):
+                caption_src.text += "\n\n" + ct.text
+                if caption_src.end >= ct.end:
+                    id_transl += 1
+        result.append(caption_src)
+    return result
